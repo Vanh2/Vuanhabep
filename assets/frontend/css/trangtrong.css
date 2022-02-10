@@ -1,0 +1,276 @@
+/* Block1 */
+
+.body-wrap .block1 {
+    background: #ebebeb;
+    padding: 10px 0;
+    margin-bottom: 70px;
+}
+
+.block1 ol.breadcrumb {
+    margin-bottom: 0;
+}
+
+.breadcrumb-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb-item:hover a {
+    color: #f7a722;
+}
+
+.breadcrumb-item.active {
+    color: #f7a722 !important;
+}
+
+
+/* End Block1 */
+
+
+/* Block2 */
+
+p.info {
+    font-size: 14px;
+}
+
+.info .text {
+    color: #000;
+    text-decoration: none;
+}
+
+.info .text:hover {
+    color: #f7a722;
+}
+
+hr.chiacat {
+    width: 30%;
+    color: #f7a722;
+}
+
+
+/* Bên trái */
+
+
+/* Menu */
+
+.row .left {
+    margin: 0;
+}
+
+ul.danhsach {
+    list-style: none;
+    padding: 0;
+    border: none;
+}
+
+ul.danhsach li.danhsach-item:nth-child(4) {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li.danhsach-item,
+ul.dropdown-menu>li {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+li.danhsach-item>a,
+li.danhsach-item ul li a {
+    padding: 10px 24px 10px 18px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    background-color: #f9fafb;
+}
+
+li.danhsach-item .dsrelative {
+    position: relative;
+}
+
+li.danhsach-item>i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+ul.card {
+    border: none;
+    list-style: none;
+}
+
+a.btn:focus {
+    box-shadow: none;
+}
+
+ul.card-body {
+    padding: 0;
+}
+
+ul.card>li {
+    padding: 5px 10px
+}
+
+li.danhsach-item a.btn.btn-primary {
+    width: 100%;
+    border: 1px solid #fff;
+    text-align: left;
+}
+
+li.danhsach-item a.btn.btn-primary.dsrelative {
+    background-color: #f7a722;
+    color: #fff;
+}
+
+li.danhsach-item:hover a.btn.btn-primary,
+li.danhsach-item:hover>a,
+ul.card>li:hover>a {
+    background-color: #f7a722;
+    color: #fff;
+}
+
+li.danhsach-item a.btn.btn-primary.collapsed {
+    background-color: #f9fafb;
+    color: #000;
+}
+
+
+/* End Menu */
+
+
+/* Price */
+
+.container.price-slider {
+    padding: 0;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.price h2.title-price {
+    font-weight: 700;
+}
+
+.chube {
+    font-size: 14px;
+}
+
+.width-half {
+    width: 45% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.divided2 {
+    width: 5px !important;
+}
+
+.noUi-connect {
+    background: #F7a722 !important;
+}
+
+.noUi-handle.noUi-handle-lower,
+.noUi-handle.noUi-handle-upper {
+    background: #f7a722 !important;
+}
+
+.noUi-handle:active {
+    border: 8px solid #f7a722 !important;
+}
+
+.m20 {
+    margin: 20px 0;
+}
+
+
+/* End Price */
+
+
+/* Lựa chọn option */
+
+span.first-title {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px 0 10px 0;
+    display: block;
+}
+
+span.trademark-optione {
+    display: block;
+}
+
+span.trademark-optione>label {
+    display: flex;
+    align-items: center;
+}
+
+span.trademark-optione>label>span {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+select.select {
+    width: 100%;
+    border: 1px solid #ebebeb;
+}
+
+.container-fluid.p0 {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.products-name {
+    font-size: 24px;
+}
+
+.products-name a {
+    color: #000;
+    text-decoration: none;
+}
+
+.products-name:hover a {
+    color: #f7a722;
+}
+
+h3.small-name {
+    height: 50px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.detail-small-img img {
+    width: 85px;
+}
+
+.detail-small-title .card-price {
+    font-size: 15px;
+}
+
+.card-price-compare {
+    padding: 0;
+}
+
+
+/* End Lựa chọn option */
+
+
+/* Hết bên trái */
+
+
+/* Bên phải */
+
+.col-xl-4.col-lg-4.col-md-6.col-6 {
+    margin-bottom: 20px;
+}
+
+
+/* Hết bên phải */
+
+
+/* End Block2 */

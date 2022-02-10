@@ -1,0 +1,33 @@
+.row {
+    justify-content: center;
+}
+
+.col-xl-3.col-md-3.col-12 {
+    text-align: center;
+}
+
+.contact-icon {
+    display: inline;
+    padding: 20px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.contact-icon:hover {
+    background-color: #f7a722;
+}
+
+.contact-icon i {
+    color: #fff;
+}
+
+.contact-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.map {
+    margin-top: 50px;
+}
